@@ -4,35 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <!-- Link to the external CSS file for styling -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- Link to the external CSS file for styling -->
   </head>
   <body>
     <div class="container">
-      <!-- Main heading of the weather application -->
       <h1>Weather App</h1>
-      <!-- Form for user to input the zip code -->
+      <!-- Main heading of the weather application -->
       <form id="weather-form">
-        <!-- Label for the zip code input field -->
+        <!-- Form for user to input the zip code -->
         <label for="zip">Enter Zip Code:</label>
-        <!-- Text input for the user to enter the zip code, required field -->
+        <!-- Label for the zip code input field -->
         <input type="text" id="zip" name="zip" required />
-        <!-- Button to submit the form and fetch weather data -->
+        <!-- Text input for the user to enter the zip code, required field -->
         <button type="submit">Get Weather</button>
+        <!-- Button to submit the form and fetch weather data -->
       </form>
-      <!-- Section to display the fetched weather data -->
       <div id="weather-data" class="weather-data">
-        <!-- Subheading for weather information -->
+        <!-- Section to display the fetched weather data -->
         <h2>Weather Information</h2>
-        <!-- Paragraphs to display different pieces of weather data -->
+        <!-- Subheading for weather information -->
         <p id="date"></p>
+        <!-- Paragraph to display the current date -->
         <p id="city"></p>
+        <!-- Paragraph to display the city name -->
         <p id="temperature"></p>
+        <!-- Paragraph to display the temperature -->
         <p id="conditions"></p>
+        <!-- Paragraph to display the weather conditions -->
         <p id="temp-hi-lo"></p>
+        <!-- Paragraph to display the high and low temperatures -->
       </div>
     </div>
+    <script src="../dist/script.js"></script>
     <!-- Link to the external JavaScript file for functionality -->
-    <script src="script.js"></script>
   </body>
 </html>
