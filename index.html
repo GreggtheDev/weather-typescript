@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Main heading of the weather application -->
+      <h1>Weather App</h1>
+      <!-- Form for user to input the zip code -->
+      <form id="weather-form">
+        <!-- Label for the zip code input field -->
+        <label for="zip">Enter Zip Code:</label>
+        <!-- Text input for the user to enter the zip code, required field -->
+        <input type="text" id="zip" name="zip" required />
+        <!-- Button to submit the form and fetch weather data -->
+        <button type="submit">Get Weather</button>
+      </form>
+      <!-- Section to display the fetched weather data -->
+      <div id="weather-data" class="weather-data">
+        <!-- Subheading for weather information -->
+        <h2>Weather Information</h2>
+        <!-- Paragraphs to display different pieces of weather data -->
+        <p id="date"></p>
+        <p id="city"></p>
+        <p id="temperature"></p>
+        <p id="conditions"></p>
+        <p id="temp-hi-lo"></p>
+      </div>
+    </div>
+    <!-- Link to the external JavaScript file for functionality -->
+    <script src="script.js"></script>
+  </body>
+</html>

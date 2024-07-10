@@ -1,0 +1,31 @@
+/* Style for the entire body of the document */
+body {
+  font-family: Arial, sans-serif; /* Sets the font family to Arial, falling back to sans-serif if Arial is unavailable */
+  background-color: #f0f8ff; /* Sets a light blue background color for the body */
+  text-align: center; /* Centers the text alignment */
+}
+
+/* Style for the container div that wraps the main content */
+.container {
+  max-width: 600px; /* Sets the maximum width of the container to 600 pixels */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px; /* Adds 20 pixels of padding inside the container */
+  background-color: #fff; /* Sets the background color to white */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the container */
+  border-radius: 8px; /* Rounds the corners of the container */
+}
+
+/* Style for the form element */
+form {
+  margin-bottom: 20px; /* Adds a 20-pixel margin below the form */
+}
+
+/* Style for the weather-data div that displays the weather information */
+.weather-data {
+  margin-top: 20px; /* Adds a 20-pixel margin above the weather-data div */
+}
+
+/* Style for the paragraphs inside the weather-data div */
+.weather-data p {
+  margin: 10px 0; /* Adds a 10-pixel margin above and below each paragraph */
+}
