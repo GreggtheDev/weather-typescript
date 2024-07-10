@@ -1,1 +1,1 @@
-# weather-typescript
+# weather-typescript app
