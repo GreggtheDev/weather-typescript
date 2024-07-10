@@ -3,7 +3,8 @@
     "target": "es2022", // Specifies the ECMAScript target version
     "strict": true, // Enables all strict type-checking options
     "outDir": "dist", // Redirects output structure to the directory
-    "rootDir": "src" // Specifies the root directory of input files
+    "rootDir": "src", // Specifies the root directory of input files
+    "forceConsistentCasingInFileNames": true // Ensures consistent casing in file names
   },
   "include": ["src/**/*"], // Specifies the files to include in the compilation
   "files": ["src/main.ts"] // Add at least one input file
